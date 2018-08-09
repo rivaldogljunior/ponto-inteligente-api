@@ -136,7 +136,7 @@ public class Funcionario implements Serializable {
 		return Optional.ofNullable(qtdHorasAlmoco);
 	}
 
-	public void setQtdHorasAumoco(Float qtdHorasAlmoco) {
+	public void setQtdHorasAlmoco(Float qtdHorasAlmoco) {
 		this.qtdHorasAlmoco = qtdHorasAlmoco;
 	}
 
@@ -203,9 +203,10 @@ public class Funcionario implements Serializable {
 		return "Funcionário [id = "+ id + ", nome = "+ nome + ", email = " + email + ", senha = " + senha + ", cpf = "
 				+ cpf + ", valorHora = " + valorHora + ", qtdHorasTrabalhoDia = " + qtdHorasTrabalhoDia + ", qtdHorasAlmoco = "
 				+ qtdHorasAlmoco + ", perfil = " + perfil + ", dataCriacao = " + dataCriacao + ", dataAtualizacao = " 
-				+ dataAtualizacao + ", empresa = " + empresa + "]";				
+				+ dataAtualizacao + ", empresa = " + empresa + "]";
+				
 	}
-	
+
 }
 
 
