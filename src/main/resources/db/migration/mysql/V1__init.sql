@@ -17,7 +17,7 @@ nome  VARCHAR(75) NOT NULL,
 perfil VARCHAR(50) NOT NULL,
 qtd_horas_almoco FLOAT DEFAULT NULL,
 qtd_horas_trabalho_dia FLOAT DEFAULT NULL,
-senha VARCHAR(25) NOT NULL,
+senha VARCHAR(50) NOT NULL,
 valor_hora DECIMAL(19, 2) DEFAULT NULL,
 empresa_id BIGINT(20) DEFAULT NULL 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

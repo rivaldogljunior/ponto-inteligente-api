@@ -122,7 +122,7 @@ public class Funcionario implements Serializable {
 		return Optional.ofNullable(qtdHorasTrabalhoDia);
 	}
  
-	public void setQtdHorasTrabalhadoDia(Float qtdHorasTrabalhadoDia) {
+	public void setQtdHorasTrabalhadoDia(Float qtdHorasTrabalhoDia) {
 		this.qtdHorasTrabalhoDia = qtdHorasTrabalhoDia;
 	}
 
