@@ -23,4 +23,3 @@ public interface EmpresaService {
 	Empresa persistir(Empresa empresa);
 }
 
-//Old CONFIGURE CHANNEL DEVICE TYPE DISK FORMAT   '/backup_tmp/bk_%d_%u_%s_%p';

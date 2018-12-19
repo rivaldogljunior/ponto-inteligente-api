@@ -2,7 +2,6 @@ package com.rivaldo.pontointeligente.api.services;
 
 import java.util.Optional;
 
-import com.rivaldo.pontointeligente.api.entities.Empresa;
 import com.rivaldo.pontointeligente.api.entities.Funcionario;
 
 public interface FuncionarioService {
